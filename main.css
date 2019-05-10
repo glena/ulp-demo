@@ -2780,7 +2780,14 @@ a {
 
 /* logo position */
 
-.ulp-box.right #prompt-logo,
+#prompt-logo {
+  top: 24px;
+  left: 24px;
+  height: 48px;
+  position: fixed;
+  background: transparent;
+}
+/* .ulp-box.right #prompt-logo,
 .ulp-box.left #prompt-logo {
   top: 24px;
   left: 24px;
@@ -2790,7 +2797,7 @@ a {
 
 .ulp-box.right #prompt-logo {
   right: 100px;
-}
+} */
 
 .flag-icon-background {
   background-size: contain;
