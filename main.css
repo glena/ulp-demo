@@ -1740,9 +1740,8 @@ a {
   color: var(--font-light-color);
   background: white;
   text-align: center;
-  box-shadow: 0 0 15px 10px #fff;
-  box-shadow: 0 0 15px 10px var(--widget-background-color);
   z-index: 3;
+  border-radius: 0 0 5px 5px;
 }
 
 /* Only apply a slight margin when the button is not the only child */
